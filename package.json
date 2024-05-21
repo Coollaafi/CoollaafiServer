@@ -1,11 +1,11 @@
 {
   "name": "coollaafiserver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www",
-    "start:prod": "cross-env NODE_ENV=production node ./bin/www"
+    "start:prod": "cross-env PORT=8080 NODE_ENV=production node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
