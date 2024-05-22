@@ -8,6 +8,7 @@
     "start:prod": "cross-env PORT=8080 NODE_ENV=production node ./bin/www"
   },
   "dependencies": {
+    "aws-sdk": "^2.1625.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.4.5",
